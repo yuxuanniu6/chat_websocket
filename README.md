@@ -18,8 +18,9 @@ websocket实现的聊天室功能，根据业务可以进行拓展
 ```
 {
 	"msgid": 1,
-	"id": 11,
-	"account": 20190 "password": "666"
+	"id": 11,            //用户id
+	"account": 2019，    //账号
+        "password": "666"    //密码
 }
 ```
 
@@ -28,7 +29,7 @@ websocket实现的聊天室功能，根据业务可以进行拓展
 {
 	"msgid": 1,
 	"id": 12,
-	"roomId": "zhihuishu"
+	"roomId": "zhihuishu"    //房间号
 }
 ```
 
@@ -37,18 +38,18 @@ websocket实现的聊天室功能，根据业务可以进行拓展
 {
 	"msgid": 2,
 	"id": 12,
-	"leaveRoomId": "xxxx"
+	"leaveRoomId": "xxxx"    //离开的房间号
 }
 ```
 
 一对一聊天 
 ```
 {
-	"msgid": 5,
-	"id": 11,
-	"from": 11,
-	"to": 12,
-	"message": "这是一条测试消息"
+	"msgid": 5,    //消息类型
+	"id": 11,      //发送者id 
+	"from": 11,    //来自谁，一般是id，后面可以改成用户昵称
+	"to": 12,      //接收者id
+	"message": "这是一条测试消息"    //消息
 }
 ```
 
