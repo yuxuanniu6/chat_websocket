@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/WebsocketClient.h
+websocketpp/config/asio_no_tls_client.hpp
+-
+websocketpp/client.hpp
+-
+websocketpp/common/thread.hpp
+-
+websocketpp/common/memory.hpp
+-
+string
+-
+locale
+-
+codecvt
+-
+
+/root/websocket/practice/client/src/WebsocketClient.cpp
+WebsocketClient.h
+/root/websocket/practice/client/src/WebsocketClient.h
+
+/root/websocket/practice/client/src/client.cpp
+WebsocketClient.h
+/root/websocket/practice/client/src/WebsocketClient.h
+

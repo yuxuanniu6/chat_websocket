@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-7/root/usr/bin/g++      CMakeFiles/client.dir/src/WebsocketClient.cpp.o CMakeFiles/client.dir/src/client.cpp.o  -o ../bin/client -rdynamic -std=c++11 -lpthread /usr/lib64/libssl.so /usr/lib64/libcrypto.so 
